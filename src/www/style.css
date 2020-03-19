@@ -1,0 +1,41 @@
+* {
+	font-family: sans-serif;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: darkgrey;
+}
+
+a:active {
+	text-decoration: none;
+	color: darkgrey;
+} 
+
+.grid {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-areas:
+		"home"
+		"text";
+	padding: 30px;
+}
+
+.home {
+	grid-area: home;
+}
+
+.text {
+	grid-area: text;
+}
+
